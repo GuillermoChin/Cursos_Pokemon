@@ -1,0 +1,32 @@
+# Ignorar todo lo que está en la carpeta de datos
+Data_Sets/
+
+# Ignorar todo lo que está en la carpeta de presentaciones
+presentaciones/
+
+# Por si acaso, también ignoramos backups de MATLAB
+*.asv
+
+# Ignorar archivos temporales comunes de MATLAB
+*.fig
+*.mat
+*.mex* 
+*.log
+
+# Ignorar carpetas temporales de MATLAB
+.DS_Store
+*.bak
+*~
+
+# Ignorar resultados de compilación de MATLAB (si compilas algo)
+*.mlappinstall
+*.mlapp
+*.mlpkginstall
+*.mldatx
+
+# Ignorar los checkpoints de git (por si los usas)
+.git/
+
+# Ignorar carpetas de sistemas operativos (por si trabajas cruzado Win/Mac)
+Thumbs.db
+Desktop.ini
